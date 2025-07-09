@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechLearn Solutions - Learn Coding</title>
+    <title>LetsUpgrade Solutions - Learn Coding</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
@@ -17,10 +17,10 @@
             --secondary-orange: #FF8566;
             --light-orange: #FFE5D9;
             --darker-orange: #E55B2B;
-            --dark-bg: #0F0F23;
-            --card-bg: #1A1A2E;
-            --text-light: #E3E3E3;
-            --text-muted: #B0B0B0;
+            --dark-bg: #eeeef0;
+            --card-bg: #f0f0f3;
+            --text-light: #100606;
+            --text-muted: #0d0b0b;
         }
 
         * {
@@ -46,9 +46,9 @@
             width: 100%;
             height: 100%;
             background: 
-                radial-gradient(circle at 20% 50%, rgba(255, 107, 53, 0.1) 0%, transparent 50%),
-                radial-gradient(circle at 80% 20%, rgba(255, 133, 102, 0.1) 0%, transparent 50%),
-                radial-gradient(circle at 40% 80%, rgba(255, 107, 53, 0.05) 0%, transparent 50%);
+                radial-gradient(circle at 20% 50%, rgba(234, 232, 231, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(243, 241, 241, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 40% 80%, rgba(237, 236, 236, 0.05) 0%, transparent 50%);
             z-index: -2;
             animation: backgroundPulse 20s ease-in-out infinite;
         }
@@ -116,13 +116,13 @@
 
         /* Navigation */
         .navbar {
-            background: rgba(26, 26, 46, 0.95) !important;
+            background: rgba(255, 255, 255, 0.95) !important;
             backdrop-filter: blur(20px);
-            border-bottom: 1px solid rgba(255, 107, 53, 0.2);
+            border-bottom: 1px solid #e0e0e0;
         }
 
         .navbar-brand {
-            color: var(--text-light) !important;
+            color: #222 !important;
             font-weight: 600;
             font-size: 1.5rem;
             background: linear-gradient(135deg, var(--primary-orange), var(--secondary-orange));
@@ -496,12 +496,12 @@
     </div>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top bg-white shadow-sm">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="#">
                 <div class="logo">
                     <img src="./assets/image.png" alt="Logo" class="logo-image">
-                    <span class="logo-text">Code Playground</span>
+                    <span class="logo-text">LetsUpgrade</span>
                 </div>
             </a>
         </div>
@@ -513,9 +513,9 @@
             <div class="row g-4 align-items-center">
                 <!-- Welcome Section -->
                 <div class="col-lg-6">
-                    <div class="welcome-card p-5 h-100">
-                        <h1 class="welcome-title">Welcome to TechLearn</h1>
-                        <p class="lead text-muted mb-4">Your journey to becoming a coding expert starts here. Join thousands of developers who trust TechLearn for their programming education.</p>
+                    <div class="welcome-card p-5 h-100 bg-white text-dark">
+                        <h1 class="welcome-title">Welcome to LetsUpgrade</h1>
+                        <p class="lead text-muted mb-4">Your journey to becoming a coding expert starts here. Join thousands of developers who trust LetsUpgrade for their programming education.</p>
                         
                         <div class="row g-3">
                             <div class="col-12">
@@ -554,7 +554,7 @@
 
                 <!-- Forms Section -->
                 <div class="col-lg-6">
-                    <div class="form-card p-5">
+                    <div class="form-card p-5 h-100 bg-white text-dark">
                         <!-- Form Toggle -->
                         <div class="form-tabs d-flex mb-4" id="formTabs">
                             <button class="tab-btn active" onclick="switchForm('signin')">Sign In</button>

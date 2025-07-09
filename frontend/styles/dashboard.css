@@ -6,8 +6,8 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #1a73e8 0%, #0d47a1 100%);
-    color: #ffffff;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    color: #222;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -15,13 +15,13 @@ body {
 
 /* Navigation */
 .navbar {
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid #e0e0e0;
 }
 
 .logo a {
@@ -37,7 +37,7 @@ body {
 }
 
 .logo h1 {
-    color: #ffffff;
+    color: #222;
     font-size: 1.5rem;
     font-weight: 600;
 }
@@ -49,7 +49,8 @@ body {
 }
 
 .nav-link {
-    color: rgba(255, 255, 255, 0.9);
+    color: #555;
+    background: transparent;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -60,13 +61,13 @@ body {
 }
 
 .nav-link:hover {
-    color: #ffffff;
-    background: rgba(255, 255, 255, 0.15);
+    color: #222;
+    background: rgba(255, 255, 255, 0.95);
 }
 
 .nav-link.active {
-    color: #ffffff;
-    background: rgba(255, 255, 255, 0.15);
+    color: #222;
+    background: rgba(255, 255, 255, 0.95);
 }
 
 .nav-link i {

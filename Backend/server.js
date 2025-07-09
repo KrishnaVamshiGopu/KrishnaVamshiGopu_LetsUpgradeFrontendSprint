@@ -29,7 +29,7 @@ app.use(cors({
         'https://44.226.122.3',
         
         // Netlify frontend URL (replace with your actual Netlify URL)
-        'https://https://683b697b572570a3bb286211--tech-learn-kv.netlify.app/',
+        'https://683b697b572570a3bb286211--letsupgrade.netlify.app/',
         
         // Allow all Netlify subdomains (optional)
         /https:\/\/.*\.netlify\.app$/
